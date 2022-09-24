@@ -1,0 +1,26 @@
+.box{
+    box-sizing: border-box;
+    width: 400px;
+    height: 350px;
+    overflow: scroll;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+}
+button:hover{
+    background-color: aqua;
+    text-transform: inherit;
+    color: rgb(247, 255, 6);
+    box-shadow: 0.5px 0.5px 3px 0.5px red;
+    transition: 0.2s;
+    border: none;
+    border-radius: 10%;
+}
